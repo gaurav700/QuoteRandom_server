@@ -15,7 +15,7 @@ passportConfig(passport);
 
 app.use(express.json());
 app.use(cors({
-  origin: 'https://quoterandom.onrender.com/', 
+  origin: 'https://quoterandom.onrender.com', 
   credentials: true 
 }));
 app.use(session({
